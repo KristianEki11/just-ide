@@ -1,0 +1,16 @@
+[package]
+name = "jide-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+chardetng.workspace = true
+encoding_rs.workspace = true
+ropey.workspace = true
+serde.workspace = true
+smallvec.workspace = true
+thiserror.workspace = true
+unicode-segmentation.workspace = true
+unicode-width.workspace = true

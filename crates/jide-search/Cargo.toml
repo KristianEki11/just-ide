@@ -1,0 +1,17 @@
+[package]
+name = "jide-search"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+crossbeam-channel.workspace = true
+grep-matcher.workspace = true
+grep-regex.workspace = true
+grep-searcher.workspace = true
+ignore.workspace = true
+jide-core.workspace = true
+regex.workspace = true
+ropey.workspace = true
+thiserror.workspace = true

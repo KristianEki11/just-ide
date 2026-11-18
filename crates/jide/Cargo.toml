@@ -1,0 +1,28 @@
+[package]
+name = "jide"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+arboard.workspace = true
+rfd.workspace = true
+clap.workspace = true
+crossbeam-channel.workspace = true
+eframe.workspace = true
+egui.workspace = true
+jide-core.workspace = true
+jide-platform.workspace = true
+jide-search.workspace = true
+jide-syntax.workspace = true
+jide-ui.workspace = true
+jide-workspace.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+[target.'cfg(windows)'.build-dependencies]
+winres.workspace = true

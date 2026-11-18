@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Just IDE
+GenericName=Text Editor
+Comment=A fast, offline code editor
+Exec=jide %F
+Icon=jide
+Terminal=false
+StartupNotify=true
+StartupWMClass=jide
+MimeType=text/plain;
+Categories=Development;TextEditor;
+Keywords=editor;code;text;programming;

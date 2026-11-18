@@ -1,0 +1,62 @@
+name = "Just Light"
+kind = "light"
+
+[colors]
+"bg.base" = "#FFFFFF"
+"bg.surface" = "#F5F6F8"
+"bg.elevated" = "#FFFFFF"
+"bg.hover" = "#ECEEF2"
+"bg.active" = "#E2E5EA"
+"bg.input" = "#FFFFFF"
+"border.subtle" = "#E3E5E9"
+"border.strong" = "#CDD1D8"
+"border.focus" = "#1F6FEB"
+"text.primary" = "#1C1E22"
+"text.secondary" = "#50555F"
+"text.muted" = "#6E737D"
+"text.disabled" = "#A9ADB5"
+"text.on-accent" = "#FFFFFF"
+"accent" = "#1F6FEB"
+"accent.hover" = "#1A5EC9"
+"accent.subtle" = "#1F6FEB1F"
+"success" = "#1A7F4B"
+"warning" = "#9A6700"
+"danger" = "#CF222E"
+"info" = "#1F6FEB"
+"editor.current-line" = "#F6F8FB"
+"editor.selection" = "#CFE1FF"
+"editor.selection.inactive" = "#E3E8F0"
+"editor.cursor" = "#1C1E22"
+"editor.cursor.secondary" = "#50555F"
+"editor.match" = "#E7B04B40"
+"editor.match.current" = "#E7B04B99"
+"editor.bracket-match" = "#1F6FEB40"
+"editor.line-number" = "#868C96"
+"editor.line-number.active" = "#1C1E22"
+"editor.indent-guide" = "#E3E5E9"
+"editor.indent-guide.active" = "#CDD1D8"
+"editor.whitespace" = "#CDD1D8"
+"editor.ruler" = "#ECEEF2"
+
+[syntax]
+keyword = { fg = "#8A3FD1" }
+string = { fg = "#3C7A1E" }
+number = { fg = "#B35A12" }
+constant = { fg = "#B35A12" }
+comment = { fg = "#737983", italic = true }
+function = { fg = "#1F5FBF" }
+type = { fg = "#0E7C70" }
+class = { fg = "#0E7C70" }
+variable = { fg = "#1C1E22" }
+parameter = { fg = "#7A5016" }
+operator = { fg = "#5A606A" }
+punctuation = { fg = "#5A606A" }
+tag = { fg = "#C2362F" }
+attribute = { fg = "#8F6200" }
+regex = { fg = "#0E7C70" }
+escape = { fg = "#0E7C70" }
+heading = { fg = "#1F5FBF", bold = true }
+link = { fg = "#0E7C70", underline = true }
+invalid = { fg = "#C2362F" }
+"diff.added" = { fg = "#1A7F4B" }
+"diff.removed" = { fg = "#C2362F" }

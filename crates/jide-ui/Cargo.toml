@@ -1,0 +1,16 @@
+[package]
+name = "jide-ui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+egui.workspace = true
+jide-core.workspace = true
+jide-search.workspace = true
+jide-syntax.workspace = true
+jide-workspace.workspace = true
+serde.workspace = true
+toml.workspace = true
